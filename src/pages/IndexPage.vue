@@ -3,7 +3,7 @@
   <q-page>
     <div class="q-pa-md row items-start q-gutter-md">
       <!--Tarjeta 1-->
-      <q-card class="my-card q-ml-lg q-mr-lg q-mb-md col-2 bg-teal-4 text-white">
+      <q-card class="my-card col-6 col-md-3 q-pa-sm bg-teal-4 text-white">
         <img src="https://cdn.quasar.dev/img/mountains.jpg">
 
         <q-card-section style="cursor: pointer" @click="$router.push('/movil/1234')">
@@ -15,7 +15,7 @@
         </q-card-section>
       </q-card>
       <!--Tarjeta 2-->
-      <q-card class="my-card q-ml-lg q-mr-lg q-mb-md col-2 bg-teal-4 text-white">
+      <q-card class="my-card col-6 col-md-3 q-pa-sm bg-teal-4 text-white">
         <img src="https://cdn.quasar.dev/img/mountains.jpg">
 
         <q-card-section style="cursor: pointer" @click="$router.push('/movil/12345')">
@@ -28,7 +28,7 @@
       </q-card>
 
       <!--Tarjeta 3-->
-      <q-card class="my-card q-ml-lg q-mr-lg q-mb-md col-2 bg-teal-4 text-white">
+      <q-card class="my-card col-6 col-md-3 q-pa-sm bg-teal-4 text-white">
         <img src="https://cdn.quasar.dev/img/mountains.jpg">
 
         <q-card-section style="cursor: pointer" @click="$router.push('/movil/123')">
@@ -41,7 +41,7 @@
       </q-card>
 
       <!--Tarjeta 4-->
-      <q-card class="my-card q-ml-lg q-mr-lg q-mb-md col-2 bg-teal-4 text-white">
+      <q-card class="my-card col-6 col-md-3 q-pa-sm bg-teal-4 text-white">
         <img src="https://cdn.quasar.dev/img/mountains.jpg">
 
         <q-card-section style="cursor: pointer" @click="$router.push('/movil/1256')">
@@ -54,7 +54,7 @@
       </q-card>
 
       <!--Tarjeta 5-->
-      <q-card class="my-card q-ml-lg q-mr-lg col-2 bg-teal-4 text-white">
+      <q-card class="my-card col-6 col-md-3 q-pa-sm bg-teal-4 text-white">
         <img src="https://cdn.quasar.dev/img/mountains.jpg">
 
         <q-card-section style="cursor: pointer" @click="$router.push('/movil/1')">
@@ -67,7 +67,7 @@
       </q-card>
 
       <!--Tarjeta 6-->
-      <q-card class="my-card q-ml-lg q-mr-lg col-2 bg-teal-4 text-white">
+      <q-card class="my-card col-6 col-md-3 q-pa-sm bg-teal-4 text-white">
         <img src="https://cdn.quasar.dev/img/mountains.jpg">
 
         <q-card-section style="cursor: pointer" @click="$router.push('/movil/123456789')">
@@ -80,7 +80,7 @@
       </q-card>
 
       <!--Tarjeta 7-->
-      <q-card class="my-card q-ml-lg q-mr-lg col-2 bg-teal-4 text-white">
+      <q-card class="my-card col-6 col-md-3 q-pa-sm bg-teal-4 text-white">
         <img src="https://cdn.quasar.dev/img/mountains.jpg">
 
         <q-card-section style="cursor: pointer" @click="$router.push('/movil/5678')">
@@ -93,7 +93,7 @@
       </q-card>
 
       <!--Tarjeta 8-->
-      <q-card class="my-card q-ml-lg q-mr-lg col-2 bg-teal-4 text-white">
+      <q-card class="my-card col-6 col-md-3 q-pa-sm bg-teal-4 text-white">
         <img src="https://cdn.quasar.dev/img/mountains.jpg">
 
         <q-card-section style="cursor: pointer" @click="$router.push('/movil/78910')">
