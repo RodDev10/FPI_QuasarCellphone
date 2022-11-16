@@ -34,15 +34,15 @@ export default defineComponent({
   name: 'menuDeOpciones',
   setup () {
     return {
-      check1: ref (false),
-      marcas: ref ([
+      check1: ref(false),
+      marcas: ref([
         { value: false, label: 'Samsung', cantidad: 12 },
         { value: false, label: 'Huawei', cantidad: 10 },
         { value: false, label: 'Nokia', cantidad: 15 },
         { value: false, label: 'Iphone', cantidad: 20 },
         { value: false, label: 'Xiaomi', cantidad: 17 }
       ]),
-      sistemas: ref ([
+      sistemas: ref([
         { value: false, label: 'Android', cantidad: 39 },
         { value: false, label: 'IOS', cantidad: 20 },
         { value: false, label: 'Windows', cantidad: 15 }

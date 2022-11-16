@@ -50,7 +50,8 @@ export default defineComponent({
     const leftDrawerOpen = ref(false)
 
     return {
-      leftDrawerOpen, menuDeOpciones,
+      leftDrawerOpen,
+      menuDeOpciones,
       toggleLeftDrawer () {
         leftDrawerOpen.value = !leftDrawerOpen.value
       }
