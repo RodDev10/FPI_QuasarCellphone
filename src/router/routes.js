@@ -4,7 +4,7 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') },
+      { path: '', component: () => import('pages/ArticuloPrincipal.vue') },
       { path: 'movil/:idMovil', component: () => import('pages/verMovil.vue') }
     ]
   },

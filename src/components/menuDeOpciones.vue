@@ -24,6 +24,18 @@
       </q-item>
     </q-list>
 
+    <!--Mostrar la pantalla de los moviles-->
+    <h6 class="q-mb-sm q-mt-sm q-ml-md">Pantalla</h6>
+    <q-list bordered separator>
+      <q-item dense v-for="(pantalla, key) in pantallas" :key="'pan-' + key" clickable v-ripple>
+        <q-item-section>
+          <q-checkbox v-model="pantalla.value" color="teal-4">
+            {{ pantalla.label }}
+          </q-checkbox>
+        </q-item-section>
+      </q-item>
+    </q-list>
+
   </div>
 </template>
 
@@ -46,6 +58,11 @@ export default defineComponent({
         { value: false, label: 'Android', cantidad: 39 },
         { value: false, label: 'IOS', cantidad: 20 },
         { value: false, label: 'Windows', cantidad: 15 }
+      ]),
+      pantallas: ref([
+        { value: false, label: '5.5' },
+        { value: false, label: '6.0' },
+        { value: false, label: '6.8' }
       ])
     }
   }
