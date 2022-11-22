@@ -26,13 +26,13 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-teal-10 text-white">
+    <!-- <q-footer elevated class="bg-teal-10 text-white">
       <q-toolbar>
         <q-toolbar-title>
           <div align="right">Articulos por pagina</div>
         </q-toolbar-title>
       </q-toolbar>
-    </q-footer>
+    </q-footer> -->
 
   </q-layout>
 </template>
