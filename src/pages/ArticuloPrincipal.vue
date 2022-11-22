@@ -1,5 +1,8 @@
 <template>
     <div>
+        <div class="row">
+
+        </div>
         <div class="row q-ma-md">
             <q-card class="my-card col-6 col-md-3 q-pa-md q-mb-lg" v-for="(item, key) in 8" :key="key">
                 <img src="https://www.sammobile.com/wp-content/uploads/2018/06/galaxy-j6-review-wide-4.jpg">

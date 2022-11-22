@@ -11,7 +11,9 @@
         </q-toolbar-title>
 
         <!--Iconos de busqueda-->
-        <div></div>
+        <div>
+          <q-btn square color="secondary" icon="navigation" @click="$router.push('/crear/1234')">Anuncio</q-btn>
+        </div>
       </q-toolbar>
     </q-header>
 
